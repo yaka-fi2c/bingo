@@ -1,0 +1,140 @@
+/* body{ background-image: linear-gradient(	#99cc00, #608000)} */
+
+
+
+
+.game-item{
+  margin-right: 2%;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius:50%;
+  border:3px solid #283f27;
+  height: 10%;
+  width: 10%;
+  color:#161c20;
+  background-color: darkgoldenrod;
+  font: bold 30px 'vincent';
+   
+}
+
+.container{
+  border: 3px solid #0c0b0c;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 50%;
+  padding: 10px;
+  margin: auto 0;
+  margin-left:auto;
+
+}
+
+.bCol, .iCol, .nCol, .gCol, .oCol{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius:50%;
+  border:3px solid #000000;
+  height: 15%;
+  width: 10%;
+  margin: 5px;
+  font:bold 22px 'Trebuchet MS';
+  background-color:#b1b1b1;}
+.pfree{
+  font: bold 15px 'Trebuchet MS';
+  padding: 10%;
+  margin: auto;}
+
+
+
+.game-items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 2%;
+}
+.bingo-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right : 15px;
+}
+
+button{
+  display: flex;
+  width: 25%;
+  height: 10%;
+  color:#000000;
+  font-weight:bold;
+  background:#b1b1b1;
+  box-shadow: 2px 2px 2px 2px #2e2826;
+  font: bold 1em 'Trebuchet MS';
+  margin-left: 15%;
+}
+
+
+.free{border-radius:50%;
+  border:3px solid black;
+  height: 15%;
+  width: 10%;
+  margin:5px;
+  background-color:goldenrod;
+  text-align: center;
+  content: "free";
+  padding-top: 5px;
+  display: flex;
+}
+
+.numDrawn {
+  display: flex;
+  border-radius: 50%;
+  background-color: darkgoldenrod;
+  color: black;
+  width: 10%;
+  height: 10%;
+  margin:10px;
+  border:3px solid black;
+}
+p{    padding: 25%;;
+  font-size:15px;
+  color:black;
+margin:auto;}
+.match{background:black;
+color:white;}
+.blink_me {
+  animation: blinker 1s ease-in-out infinite;
+}
+
+@keyframes blinker {
+ 
+
+  20% {
+    color: darkgoldenrod;
+    background-color:#161c20;
+    opacity: 0;
+  }
+}
+
+
+.newP{padding: 15%;;
+  font-size:1em;
+  color:black;
+  margin : auto;
+}
+
+.btn-container{
+display : flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 35%;
+position: absolute;
+  
+
+
+}
